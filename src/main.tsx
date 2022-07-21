@@ -4,7 +4,7 @@ import App from './App'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
+  // <React.StrictMode> // causes double render
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 )
